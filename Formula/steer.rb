@@ -1,25 +1,25 @@
 class Steer < Formula
   desc "Command-line interface for Steer coding agent."
-  homepage "https://github.com/brendangraham14/steer"
-  version "0.10.0"
+  homepage "https://github.com/BrendanGraham14/steer"
+  version "0.10.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/brendangraham14/steer/releases/download/steer-v0.10.0/steer-aarch64-apple-darwin.tar.xz"
-      sha256 "6a44372fe93d47d3b6c36836460ada113ea67351816d604094f1bbd024755ae2"
+      url "https://github.com/BrendanGraham14/steer/releases/download/steer-v0.10.1/steer-aarch64-apple-darwin.tar.xz"
+      sha256 "c6ac5894f861f81d2a0dab05a0c8f6f0da35f4d17ecf245f73aa9f4ced581d3d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/brendangraham14/steer/releases/download/steer-v0.10.0/steer-x86_64-apple-darwin.tar.xz"
-      sha256 "8412ddd8f09f500bb889b11cb0a3ba8d19ffad93a3a02a661c109aed13596ea1"
+      url "https://github.com/BrendanGraham14/steer/releases/download/steer-v0.10.1/steer-x86_64-apple-darwin.tar.xz"
+      sha256 "ff0605299d21e432c2c142ef3c6f61dc97ca8f43cdb349aa065666cf8b048853"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/brendangraham14/steer/releases/download/steer-v0.10.0/steer-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "639996a693058bfe28c75252e51765fe265ff60d0a7ccac9e6a421a53b16d770"
+      url "https://github.com/BrendanGraham14/steer/releases/download/steer-v0.10.1/steer-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "da7ac98a013e66144c5d19a2786871c303bc032f55904c81d3e915d1a8f91d8a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/brendangraham14/steer/releases/download/steer-v0.10.0/steer-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "135e0edeb16e88133f883d24890101ee0b12ee40c9aef436205c49f6ee0bab56"
+      url "https://github.com/BrendanGraham14/steer/releases/download/steer-v0.10.1/steer-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "4376b5f84d558131f4936ebdb5052d54ba8dee2d202ec06f608221ef6bdbdff6"
     end
   end
   license "AGPL-3.0-or-later"
