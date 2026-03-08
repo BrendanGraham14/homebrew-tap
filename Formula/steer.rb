@@ -1,25 +1,25 @@
 class Steer < Formula
   desc "Command-line interface for Steer coding agent."
   homepage "https://github.com/BrendanGraham14/steer"
-  version "0.18.0"
+  version "0.19.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/BrendanGraham14/steer/releases/download/steer-v0.18.0/steer-aarch64-apple-darwin.tar.xz"
-      sha256 "ae49f859d51d583977b50b0f37e90736ae3bd20d9a382c9ba652fd2993af2c6c"
+      url "https://github.com/BrendanGraham14/steer/releases/download/steer-v0.19.0/steer-aarch64-apple-darwin.tar.xz"
+      sha256 "c0807191f7c4124572d61ba859b2726932edd2e237c314fcc2358c7c6a34fc2d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/BrendanGraham14/steer/releases/download/steer-v0.18.0/steer-x86_64-apple-darwin.tar.xz"
-      sha256 "65fb1dca29a204021b61ccf558cde144d8a51832bea37844165979cd6e2d3dd8"
+      url "https://github.com/BrendanGraham14/steer/releases/download/steer-v0.19.0/steer-x86_64-apple-darwin.tar.xz"
+      sha256 "7f7b813d1986753cd3291e458f50a89fe14fda1587308935d722058542ef3c52"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/BrendanGraham14/steer/releases/download/steer-v0.18.0/steer-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "62b9d51c3f814a8fac277d39d87ac4bfcf7f46fe3cc43f9995f993370dc89d15"
+      url "https://github.com/BrendanGraham14/steer/releases/download/steer-v0.19.0/steer-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "d539e0a1e05e9f1ecc627b311a0490548ede5088cfecfa6605365a2d5a633d4f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/BrendanGraham14/steer/releases/download/steer-v0.18.0/steer-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "e6574248772f64741f7deed26fa80480248b29c074d9dd4102068f4ff2632876"
+      url "https://github.com/BrendanGraham14/steer/releases/download/steer-v0.19.0/steer-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "9945062c32849d1a877d9921fa4a19b3011d25a4b7bcf1bacb1c689aa37c4d04"
     end
   end
   license "AGPL-3.0-or-later"
